@@ -2,7 +2,7 @@
 
 The following sections summarize the technologies used and decisions made for implementation.
 
-## Front-End
+## Technology
 - JavaScript
 
 # Project Execution
