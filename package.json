@@ -1,0 +1,26 @@
+{
+  "name": "webservice",
+  "version": "1.0.0",
+  "description": "WebService",
+  "main": "./bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "node ./bin/www.js",
+    "pm2": "pm2 start ./bin/www.js"
+  },
+  "author": "Matheus Eduardo Joveliano (matheus.joveliano@gmail.com)",
+  "license": "ICS",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "compression": "^1.6.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-myconnection": "^1.0.4",
+    "method-override": "^2.3.3",
+    "morgan": "^1.6.1",
+    "mysql": "^2.6.1",
+    "pm2": "^1.0.0",
+    "promise": "^7.0.4"
+  }
+}
