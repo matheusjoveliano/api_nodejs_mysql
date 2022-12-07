@@ -12,10 +12,10 @@
   "author": "Matheus Eduardo Joveliano (matheus.joveliano@gmail.com)",
   "license": "ICS",
   "dependencies": {
-    "body-parser": "^1.14.0",
+    "body-parser": "^1.20.1",
     "compression": "^1.6.0",
     "cors": "^2.7.1",
-    "express": "^4.13.3",
+    "express": "^4.18.2",
     "express-myconnection": "^1.0.4",
     "method-override": "^2.3.3",
     "morgan": "^1.6.1",
